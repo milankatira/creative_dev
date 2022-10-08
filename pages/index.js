@@ -19,7 +19,6 @@ const index = () => {
         <About />
         <Service />
         <Work />
-        <Blog />
         <Footer />
 
         <a href="#" className="back-to-top">
