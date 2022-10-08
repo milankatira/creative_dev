@@ -13,19 +13,38 @@ import {
 const index = () => {
   return (
     <div>
-      <body id="page-top">
+      <body id="page-top" className="snap_main">
         <Navbar />
-        <Main />
-        <About />
-        <Service />
-        <Work />
-        <Footer />
+        {/* scroll-snap-align: center; */}
 
+        {/* <div style={{ "scroll-snap-align": center }}> */}
+        <div className="snap_center">
+          <Main />
+        </div>
+        {/* </div> */}
+        {/* <div style={{ "scroll-snap-align": center }}> */}
+        <div className="snap_center" id="about">
+          <About />
+        </div>
+        {/* </div> */}
+
+        {/* <div style={{ "scroll-snap-align": center }}> */}
+        <div className="snap_center">
+          <Service />
+        </div>
+        {/* </div> */}
+        {/* <div style={{ "scroll-snap-align": center }}> */}
+        <div className="snap_center">
+          <Work />
+        </div>
+        {/* <div style={{ "scroll-snap-align": center }}> */}
+        <div className="snap_center">
+          <Footer />
+        </div>
         <a href="#" className="back-to-top">
           <i className="fa fa-chevron-up"></i>
         </a>
         <div id="preloader"></div>
-
         <script src="lib/jquery/jquery.min.js"></script>
         <script src="lib/jquery/jquery-migrate.min.js"></script>
         <script src="lib/popper/popper.min.js"></script>

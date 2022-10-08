@@ -4,7 +4,7 @@
   --white-2: #cde1f8;
   --gray: #1e1e1e;
   --gray-2: #4e4e4e;
-  --gray-3:#1b1b1b;
+  --gray-3: #1b1b1b;
 }
 
 body {
@@ -32,6 +32,13 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.snap_center {
+  scroll-snap-align: center;
+}
+
+.snap_main {
+  scroll-snap-type: y mandatory;
+}
 .p-r {
   position: relative;
 }
