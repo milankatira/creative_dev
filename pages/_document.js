@@ -66,9 +66,6 @@ class MyDocument extends Document {
           <script src="js/aos.js"></script>
           <script src="js/jquery.animateNumber.min.js"></script>
           <script src="js/scrollax.min.js"></script>
-
-          <script src="js/main.js"></script>
-          {/* <script src="/js"></script> */}
         </body>
       </Html>
     );
